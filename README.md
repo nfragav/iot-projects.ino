@@ -26,4 +26,5 @@ This kind of project uses the HTTP communication protocol, and because of that, 
 - You got an API you can reach through HTTP to store the received data.
 - A central server which will process the data.
 - Simply visualizing data by entering [thingspeak](https://thingspeak.com/) registers.
+
 This project does not use MQTT, for which I would not recommend trying to make any other device make an action based on the publication, unless you are willing to retrieve an API's status data with your devices and make their effectors do an action. This approach is a secure but inefficient one.
